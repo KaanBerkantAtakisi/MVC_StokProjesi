@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kaan\\Desktop\\Udemy Projeler\\MvcStok\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{25235640-27A5-4CEF-BCB9-5FC95B13D432}|MvcStok\\MvcStok.csproj|c:\\users\\kaan\\desktop\\udemy projeler\\mvcstok\\mvcstok\\views\\musteri\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{25235640-27A5-4CEF-BCB9-5FC95B13D432}|MvcStok\\MvcStok.csproj|solutionrelative:mvcstok\\views\\musteri\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25235640-27A5-4CEF-BCB9-5FC95B13D432}|MvcStok\\MvcStok.csproj|c:\\users\\kaan\\desktop\\udemy projeler\\mvcstok\\mvcstok\\controllers\\mustericontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25235640-27A5-4CEF-BCB9-5FC95B13D432}|MvcStok\\MvcStok.csproj|solutionrelative:mvcstok\\controllers\\mustericontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\kaan\\Desktop\\Udemy Projeler\\MvcStok\\MvcStok\\Views\\Musteri\\Index.cshtml",
+              "RelativeDocumentMoniker": "MvcStok\\Views\\Musteri\\Index.cshtml",
+              "ToolTip": "C:\\Users\\kaan\\Desktop\\Udemy Projeler\\MvcStok\\MvcStok\\Views\\Musteri\\Index.cshtml",
+              "RelativeToolTip": "MvcStok\\Views\\Musteri\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-17T14:46:20.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MusteriController.cs",
+              "DocumentMoniker": "C:\\Users\\kaan\\Desktop\\Udemy Projeler\\MvcStok\\MvcStok\\Controllers\\MusteriController.cs",
+              "RelativeDocumentMoniker": "MvcStok\\Controllers\\MusteriController.cs",
+              "ToolTip": "C:\\Users\\kaan\\Desktop\\Udemy Projeler\\MvcStok\\MvcStok\\Controllers\\MusteriController.cs",
+              "RelativeToolTip": "MvcStok\\Controllers\\MusteriController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T14:36:47.329Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

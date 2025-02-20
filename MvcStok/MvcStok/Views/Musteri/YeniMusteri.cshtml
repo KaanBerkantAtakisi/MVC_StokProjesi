@@ -1,0 +1,56 @@
+﻿@model MvcStok.Models.Entity.TBLMUSTERILER
+@{
+    ViewBag.Title = "YeniMusteri";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+<form method="post" class="form-group">
+    <div>
+        <label>Müşteri Adı</label>
+        @Html.TextBoxFor(m => m.MUSTERIAD, new { @class = "form-control", @id = "txtAd" })
+        @Html.ValidationMessageFor(m => m.MUSTERIAD, "", new { @style = "color:green" })
+
+    </div>
+    <div>
+        <label>Müşteri Soyadı</label>
+        <input type="text" class="form-control" name="MUSTERISOYAD" />
+    </div>
+    <div style="margin-top:15px">
+        <button class="btn btn-info" id="btn1" onclick="EkranaBas()">Müşteri Ekle</button>
+    </div>
+    <script>
+        function EkranaBas() {
+            if (document.getElementById("txtAd").value == "") {
+
+                alert('Ekleme İşlemi Gerçekleşmedi');
+            }
+            else {
+                alert('Müşteri Ekleme İşlemi Yapıldı...!');
+            }
+        }
+    </script>
+</form>
+
+@*<form method="post" class="form-group">
+    <div>
+        <label>Müşteri Adı</label>
+        @Html.TextBoxFor(m => m.MUSTERIAD, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.MUSTERIAD, "", new { @style = "color:green" })
+
+    </div>
+    <div>
+        <label>Müşteri Soyadı</label>
+        <input type="text" class="form-control" name="MUSTERISOYAD" />
+    </div>
+    <div style="margin-top:15px">
+        <button class="btn btn-info" id="btn1">Müşteri Ekle</button>
+    </div>
+    <script>
+        $('#btn1').click(function () {
+            alert('Müşteri Ekleme İşlemi Yapıldı...!');
+        });
+    </script>
+</form>*@
+@*normalde hocanın kodlar bunlardı ama müşteri adı ve soyadını boş girsem bile ekleye basınca alertte ekleme işlemi yapıldı
+dediği için yorumlardan baktım ve kodu değiştirdim*@
+
